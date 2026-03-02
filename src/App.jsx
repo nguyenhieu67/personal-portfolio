@@ -7,7 +7,7 @@ import { data } from "./data";
 import { useEffect, useState } from "react";
 
 function App() {
-  const saveLang = localStorage.getItem("myAppLang") || "en";
+  const saveLang = localStorage.getItem("myAppLang") || "jp";
 
   const [lang, setLang] = useState(saveLang);
 
