@@ -47,7 +47,10 @@ export const data = {
           title: "Personal Portfolio",
           desc: "Introduce yourself, your future plans, and the skills you have learned.",
           tech: ["React", "Vite", "Tailwind CSS"],
-          link: "https://github.com/nguyenhieu67/personal-portfolio",
+          demoTitle: ["Link Github", "Link Preview"],
+          github: "https://github.com/nguyenhieu67/personal-portfolio",
+          preview:
+            "https://personal-portfolio-3mab82ioe-nguyenhieu67s-projects.vercel.app/",
         },
         {
           id: 2,
@@ -55,7 +58,8 @@ export const data = {
           title: "Clone Tiktok",
           desc: "I'm cloning TikTok based on UI and logic, it's still under development.",
           tech: ["React"],
-          link: "https://github.com/nguyenhieu67/tiktok-clone",
+          demoTitle: ["Link Github", "Link Preview"],
+          github: "https://github.com/nguyenhieu67/tiktok-clone",
         },
         {
           id: 3,
@@ -63,7 +67,10 @@ export const data = {
           title: "Website introducing my hometown",
           desc: "We will create a website that introduces our local delicious food and beautiful scenery to foreign tourists.",
           tech: ["JavaScript", "HTML", "SCSS"],
-          link: "https://github.com/nguyenhieu67/Graduation-project",
+          demoTitle: ["Link Github", "Link Preview"],
+          github: "https://github.com/nguyenhieu67/Graduation-project",
+          preview:
+            "https://nguyenhieu67.github.io/Graduation-project/index.html",
         },
       ],
     },
@@ -135,7 +142,10 @@ export const data = {
           title: "個人ポートフォリオ",
           desc: "自分自身のこと、将来の計画、習得したスキルについて紹介してください。",
           tech: ["React", "Vite", "Tailwind CSS"],
-          link: "https://github.com/nguyenhieu67/personal-portfolio",
+          demoTitle: ["ギットハブへのリンク", "プレビューへのリンク"],
+          github: "https://github.com/nguyenhieu67/personal-portfolio",
+          preview:
+            "https://personal-portfolio-3mab82ioe-nguyenhieu67s-projects.vercel.app/",
         },
         {
           id: 2,
@@ -143,7 +153,8 @@ export const data = {
           title: "ティックトックのクローン",
           desc: "UI とロジックに基づいて TikTok を複製していますが、まだ開発中です。",
           tech: ["React"],
-          link: "https://github.com/nguyenhieu67/tiktok-clone",
+          demoTitle: ["ギットハブへのリンク", "プレビューへのリンク"],
+          github: "https://github.com/nguyenhieu67/tiktok-clone",
         },
         {
           id: 3,
@@ -151,7 +162,10 @@ export const data = {
           title: "故郷を紹介するサイト",
           desc: "私たちの地元の美味しい食べ物やきれいな景色を外国人観光客に紹介するサイトにします。",
           tech: ["JavaScript", "HTML", "SCSS"],
-          link: "https://github.com/nguyenhieu67/Graduation-project",
+          demoTitle: ["ギットハブへのリンク", "プレビューへのリンク"],
+          github: "https://github.com/nguyenhieu67/Graduation-project",
+          preview:
+            "https://nguyenhieu67.github.io/Graduation-project/index.html",
         },
       ],
     },

@@ -19,21 +19,21 @@ export default function Hero({ data }) {
       <div className="flex flex-col flex-wrap justify-center gap-6 text-gray-300 md:gap-6">
         <div className="flex items-center gap-2">
           <span className="text-xl text-emerald-400">{data.age.title}: </span>
-          <span className="text-lg">{data.age.number}</span>
+          <span className="flex-1 text-lg">{data.age.number}</span>
         </div>
 
         <div className="flex items-center gap-2">
           <span className="text-xl text-emerald-400">
             {data.address.title}:{" "}
           </span>
-          <span className="text-lg">{data.address.string}</span>
+          <span className="flex-1 text-lg">{data.address.string}</span>
         </div>
 
         <div className="flex items-center gap-2">
           <span className="text-xl text-emerald-400">
             {data.school.title}:{" "}
           </span>
-          <span className="text-lg">{data.school.string}</span>
+          <span className="flex-1 text-lg">{data.school.string}</span>
         </div>
       </div>
 
