@@ -1,6 +1,7 @@
 import hometown from "./assets/images/hometown.png";
 import tiktok from "./assets/images/tiktok.png";
 import personal from "./assets/images/personal.jpg";
+import todoList from "./assets/images/todo-list.png";
 
 export const data = {
   en: {
@@ -71,6 +72,16 @@ export const data = {
           github: "https://github.com/nguyenhieu67/Graduation-project",
           preview:
             "https://nguyenhieu67.github.io/Graduation-project/index.html",
+        },
+        {
+          id: 4,
+          image: todoList,
+          title: "Mini Todo-List",
+          desc: "Turn your dreams into plans.",
+          tech: ["React", "Vite", "Tailwind"],
+          demoTitle: ["Link Github", "Link Preview"],
+          github: "https://github.com/nguyenhieu67/mini-toto-list",
+          preview: "https://mini-toto-list.vercel.app/",
         },
       ],
     },
@@ -166,6 +177,16 @@ export const data = {
           github: "https://github.com/nguyenhieu67/Graduation-project",
           preview:
             "https://nguyenhieu67.github.io/Graduation-project/index.html",
+        },
+        {
+          id: 4,
+          image: todoList,
+          title: "ミニ　Todo-リスト",
+          desc: "夢を計画に変える。",
+          tech: ["React", "Vite", "Tailwind"],
+          demoTitle: ["Link Github", "Link Preview"],
+          github: "https://github.com/nguyenhieu67/mini-toto-list",
+          preview: "https://mini-toto-list.vercel.app/",
         },
       ],
     },
