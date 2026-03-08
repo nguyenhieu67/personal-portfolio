@@ -2,6 +2,7 @@ import hometown from "./assets/images/hometown.png";
 import tiktok from "./assets/images/tiktok.png";
 import personal from "./assets/images/personal.jpg";
 import todoList from "./assets/images/todo-list.png";
+import storeManager from "./assets/images/storeManager.png";
 
 export const data = {
   en: {
@@ -82,6 +83,16 @@ export const data = {
           demoTitle: ["Link Github", "Link Preview"],
           github: "https://github.com/nguyenhieu67/mini-toto-list",
           preview: "https://mini-toto-list.vercel.app/",
+        },
+        {
+          id: 5,
+          image: storeManager,
+          title: "Store Manager",
+          desc: "A web application for efficient inventory tracking and sales management.",
+          tech: ["React", "Vite", "Tailwind"],
+          demoTitle: ["Link Github", "Link Preview"],
+          github: "https://github.com/nguyenhieu67/Store-Manager",
+          preview: "https://store-manager-beta.vercel.app/",
         },
       ],
     },
@@ -184,9 +195,19 @@ export const data = {
           title: "ミニ　Todo-リスト",
           desc: "夢を計画に変える。",
           tech: ["React", "Vite", "Tailwind"],
-          demoTitle: ["Link Github", "Link Preview"],
+          demoTitle: ["ギットハブへのリンク", "プレビューへのリンク"],
           github: "https://github.com/nguyenhieu67/mini-toto-list",
           preview: "https://mini-toto-list.vercel.app/",
+        },
+        {
+          id: 5,
+          image: storeManager,
+          title: "店舗管理システム",
+          desc: "在庫と売上を効率的に管理できる、使いやすさを重視したシステムです。",
+          tech: ["React", "Vite", "Tailwind"],
+          demoTitle: ["ギットハブへのリンク", "プレビューへのリンク"],
+          github: "https://github.com/nguyenhieu67/Store-Manager",
+          preview: "https://store-manager-beta.vercel.app/",
         },
       ],
     },
